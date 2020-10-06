@@ -20,5 +20,9 @@ describe("calculator.js tests", () => {
     it("should return 0 when called with no parameters", () => {
       expect(add()).toBe(0);
     });
+
+    it("should return the value passed when only one argument is provided", () => {
+      expect(add(1)).toBe(1);
+    });
   });
 });
