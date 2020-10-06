@@ -26,13 +26,13 @@ describe("calculator.js tests", () => {
     });
 
     it("should handle any number arguments, separated bu comma", () => {
-      expects(add(1, 2, 3)).toBe(6);
+      expect(add(1, 2, 3)).toBe(6);
       expect(add(1, 2, 3, 5)).toBe(11);
     });
 
     it("should handle an array of numbers", () => {
-      expected(add(1, 2, 3)).toBe(6);
-      expected(add(1, 2, 3, 5)).toBe(11);
+      expect(add(1, 2, 3)).toBe(6);
+      expect(add(1, 2, 3, 5)).toBe(11);
     });
   });
 });
